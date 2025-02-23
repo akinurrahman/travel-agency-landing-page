@@ -21,6 +21,16 @@ import processStep1 from '@/assets/icons/process-icon-1.png'
 import processStep2 from '@/assets/icons/process-icon-2.png'
 import processStep3 from '@/assets/icons/process-icon-3.png'
 
+import brand1 from '@/assets/icons/brand1.png'
+import brand2 from '@/assets/icons/brand2.png'
+import brand3 from '@/assets/icons/brand3.png'
+import brand4 from '@/assets/icons/brand4.png'
+
+import contactOverlayLeft from "@/assets/overlays/contactOverlay1.png"
+import contactOverlayRight from "@/assets/overlays/contactOverlay2.png"
+import contactOverlay from "@/assets/overlays/contactOverlay3.png"
+import mail from "@/assets/icons/mail.svg"
+import share from '@/assets/icons/share.png'
 
 export const imageConstants = {
   logo,
@@ -43,4 +53,13 @@ export const imageConstants = {
   processStep1,
   processStep2,
   processStep3,
+  brand1,
+  brand2,
+  brand3,
+  brand4,
+  contactOverlayLeft,
+  contactOverlayRight,
+  contactOverlay,
+  mail,
+  share,
 };

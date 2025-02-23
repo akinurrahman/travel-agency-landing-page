@@ -82,3 +82,12 @@ export const processSteps = [
   },
 ];
 
+export const brands = [
+  imageConstants.brand1,
+  imageConstants.brand2,
+  imageConstants.brand3,
+  imageConstants.brand4,
+];
+
+
+

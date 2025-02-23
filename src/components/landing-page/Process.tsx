@@ -13,7 +13,7 @@ const Process = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: false }}
-      className="flex flex-col md:flex-row gap-10 px-4 lg:px-10 mt-20 items-center"
+      className="flex flex-col md:flex-row gap-10 px-4 lg:px-10 mt-20 items-center "
     >
       <motion.div
         initial={{ opacity: 0, x: -50 }}
@@ -66,7 +66,7 @@ const Process = () => {
           alt="process-hero-img"
           width={485}
           height={459}
-          className="-mt-10 w-[600px] h-[450px] md:w-[485px] md:h-[459px] object-cover"
+          className="-mt-10 w-[600px] h-[450px] md:w-[485px] md:h-[459px]  object-cover"
         />
       </motion.div>
     </motion.section>

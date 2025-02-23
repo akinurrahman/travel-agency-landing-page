@@ -1,4 +1,6 @@
+import Brands from '@/components/landing-page/Brands'
 import Category from '@/components/landing-page/category'
+import Contact from '@/components/landing-page/Contact'
 import Destinations from '@/components/landing-page/Destinations'
 import Header from '@/components/landing-page/Header'
 import HeroSection from '@/components/landing-page/HeroSection'
@@ -17,6 +19,8 @@ const page = () => {
         <Category/>
         <Destinations/>
         <Process/>
+        <Brands/>
+        <Contact/>
       </div>
     </div>
   )
