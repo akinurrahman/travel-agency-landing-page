@@ -3,19 +3,19 @@ import { imageConstants } from "./image.constants";
 export const navItems = [
     {
         label : "Destination",
-        href : "/destination"
+        href : "#"
     },
     {
         label : "Hotels",
-        href : "/hotels"
+        href : "#"
     },
     {
         label : "Flights",
-        href : "/flights"
+        href : "#"
     },
     {
         label : "Bookings",
-        href : "/bookings"
+        href : "#"
     }
 ]
 export const categoryItems = [

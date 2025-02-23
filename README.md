@@ -17,7 +17,11 @@ A modern and responsive landing page for a travel agency, built using **React**,
 
 ## 📸 Screenshots
 
-*Add screenshots or a live demo link here*
+![image](/public/hero.png)
+![image](/public/plan.png)
+![image](/public/destinations.png)
+![image](/public/footer.png)
+
 
 ## 🎨 Design Credits
 
