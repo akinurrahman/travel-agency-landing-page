@@ -11,6 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#181E4B",
+        muted: "#5E6282",
+        accent: "#DF6951",
+        
+      },
+      fontFamily: {
+        poppins: "var(--font-poppins)",
+        volkhov: "var(--font-volkhov)",
+        openSans: "var(--font-open-sans)",
       },
     },
   },
