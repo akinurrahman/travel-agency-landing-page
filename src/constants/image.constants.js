@@ -32,6 +32,14 @@ import contactOverlay from "@/assets/overlays/contactOverlay3.png"
 import mail from "@/assets/icons/mail.svg"
 import share from '@/assets/icons/share.png'
 
+import appStore from '@/assets/icons/apple store.png'
+import googlePlay from '@/assets/icons/Google Play.png'
+
+import facebook from '@/assets/icons/facebook.svg'
+import instagram from '@/assets/icons/instagram.svg'
+import twitter from '@/assets/icons/twitter.svg'
+
+
 export const imageConstants = {
   logo,
   play,
@@ -62,4 +70,9 @@ export const imageConstants = {
   contactOverlay,
   mail,
   share,
+  appStore,
+  googlePlay,
+  facebook,
+  instagram,
+  twitter,
 };
