@@ -15,7 +15,7 @@ interface ItemProps {
 const CategoryItemCard = ({ item }: { item: ItemProps }) => {
   return (
     <motion.div
-      className="flex flex-col items-center bg-white shadow-lg rounded-lg p-4 lg:p-6 transition-all hover:scale-[1.05]"
+      className="flex flex-col items-center bg-white rounded-lg p-4 lg:p-6 transition-all hover:scale-[1.05]"
       initial={{ opacity: 0, y: 40, scale: 0.95 }}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
@@ -29,10 +29,10 @@ const CategoryItemCard = ({ item }: { item: ItemProps }) => {
         className="w-[60px] lg:w-[92px] lg:h-[78px] object-cover"
       />
       <div className="text-center mt-3">
-        <h3 className="text-primary font-semibold font-openSans text-lg lg:text-xl">
+        <h3 className="text-primary text-nowrap font-semibold font-openSans text-lg lg:text-xl">
           {item.title}
         </h3>
-        <p className="text-muted text-xs lg:text-sm mt-1">{item.description}</p>
+        <p className="text-muted text-xs lg:text-sm mt-4">{item.description}</p>
       </div>
     </motion.div>
   );

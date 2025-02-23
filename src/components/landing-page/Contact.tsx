@@ -29,7 +29,7 @@ const Contact = () => {
       <Image
         src={imageConstants.share}
         alt="share"
-        className="absolute size-10 lg:size-16 -top-4 -right-4"
+        className="hidden lg:block absolute size-16 -top-4 -right-4"
       />
       <Image
         src={imageConstants.contactOverlay}
